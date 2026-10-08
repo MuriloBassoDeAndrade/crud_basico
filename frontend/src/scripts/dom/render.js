@@ -24,4 +24,5 @@ export async function renderUsers(apiUrl) {
         usersSection.innerHTML = '<p class="text-muted"> No users found. </p>';
         return;
     }
+    usersSection.innerHTML = '';
 }
